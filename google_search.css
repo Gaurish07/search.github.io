@@ -1,0 +1,65 @@
+img{
+	height: 220px;
+	margin-top: 80px;
+	margin-left: 465px;
+	margin-right: auto;
+}
+div {
+  width: 400px;
+  margin-top: -30px;
+  margin-left: 480px;
+  margin-right: 400px;
+}
+a:link {
+  color: violet;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: magenta;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a::before{
+			color: white;
+			content: "\21d2";
+			font-weight: bold;
+		}
+#rcorners1 {
+	margin-top: -20px;
+	margin-left: -40px;
+		  border-radius: 25px;
+		  border-color: lightgrey;
+		  border-width: 0.05px;
+		  background: white;
+		  padding: 15px;
+		  width: 470px;
+		  height: 10px;
+				}
+
+#sub_mit{
+	margin-top: 20px;
+	margin-left: 90px;
+	padding: 10px;
+	border-color: white;
+}
+
+#button{
+	margin-top: -20px;
+	margin-left: 700px;
+	padding: 10px;
+	border-color: white;
+}
